@@ -1,0 +1,295 @@
+/* starshow index page style by Peter Dong */
+
+body{
+	width: 100%;
+	background-color: #f5f5f5;
+	padding: 0;
+	margin: 0;
+	text-align: center; font-family: Microsoft YaHei；
+	
+	}
+ul, p, h5,h3,h2, h4{margin:0;padding: 0; list-style: none;}
+
+#acontent{
+	/*min-width: 1100px;*/
+	text-align: center;
+	margin-bottom: 90px;
+
+}
+a {
+	text-decoration: none;color: #555;
+
+}
+div.clear{
+	clear:both; 
+}
+
+
+
+/* 主导航相关样式  */
+div.amenu,div.pay{
+	width: 100%;
+	background-color: #fafafa;
+	position: absolute;
+	position:fixed;
+	bottom: 0;
+	height: 90px; 
+}
+div.amenu a{
+	display: inline-block;
+	width: 25%;  height: 90px;
+	float: left;
+	text-decoration: none; line-height: 140px;
+	color: #666;
+	background: transparent url(bg/menubg_mybook.png) no-repeat center 10px; 
+
+	
+}
+div.amenu a.mybook{
+	background: transparent url(bg/menubg_mybook_now.png) no-repeat center 10px; color: #f48719;
+}
+div.amenu a.bookstore{
+	background: transparent url(bg/menubg_store.png) no-repeat center 10px;
+}
+div.amenu a.bookstorenow{
+	background: transparent url(bg/menubg_store_now.png) no-repeat center 10px; color: #f48719;
+}
+div.amenu a.cotaray {
+	background: transparent url(bg/menubg_catoray.png) no-repeat center 10px; 
+}
+div.amenu a.cotaraynow{
+	background: transparent url(bg/menubg_catoray_now.png) no-repeat center 10px; color: #f48719;
+}
+div.amenu a.myaccount {
+	background: transparent url(bg/menubg_myaccout.png) no-repeat center 10px; 
+}
+div.amenu a.myaccountnow{
+	background: transparent url(bg/menubg_myaccout_now.png) no-repeat center 10px; color: #f48719;
+}
+
+
+/* 列表相关样式  */
+h4.listTit{
+	margin:0;
+	font-size: 1.5em; line-height: 1.4em;
+	color: #f48719; padding-top: 15px;
+}
+
+div.edit{padding-top: top; border-bottom: 1px solid #ccc;
+	text-align: right;
+	
+}
+div.edit a{
+	display: inline-block; line-height: 40px; padding-left: 30px;
+	background: transparent url(bg/edit.png) no-repeat left center;  
+	margin-right: 15px; color: blue; text-decoration: none;
+}
+div.noone{
+	text-align: center;
+	padding: 15px 0; font-size: 1.2em;
+}
+div.noone a{
+	display: inline-block; padding: 8px 15px; text-decoration: none; color: #fff;
+	background-color: #f48719; border-radius: 6px; margin-top: 10px;
+}
+
+div.blist, div.blistCover,div.viewInfo{background-color: #ffffff;
+	padding: 0 15px 15px;
+	text-align: left; margin-bottom: 15px;
+}
+
+div.blist ul li{
+	position: relative;
+	
+	padding: 15px 0;
+	border-bottom: 1px solid #ccc;
+
+}
+div.blist ul li a{
+	display: block; text-decoration: none; color: #333;
+}
+div.blist ul li img{
+	float: left;
+	 display: block;
+	 margin: 0; padding-right: 15px; width: 80px; height: 115px;
+}
+div.blist ul li span.clear{
+	display: block; clear: both;
+}
+
+div.blist ul li h5{
+	font-size:1.4em; line-height: 2.2em;
+}
+div.blist ul li p{
+	font-size:1em; line-height: 1.8em; color: #666;
+}
+div.blist ul li p a{
+	display: inline-block; background-color: #f48719; padding: 5px 20px;line-height: 30px; border-radius: 10px; color: #fff;}
+
+/* 书城推荐相关样式 */
+
+div.bannerBox {
+	height: 280px;
+}
+div.bannerBox img{
+	height: 280px;
+	display: block; margin: 0 auto;
+}
+div.blistCover ul {}
+div.blistCover ul li{
+	width: 33.3%;
+	float: left;
+	display: block;
+}
+
+div.blistCover ul li a{
+	display: block;
+	margin: 0 auto;
+	text-align: center; 
+}
+div.blistCover ul li img{
+	display: block;
+	width: 140px; margin: 0 auto;
+}
+div.blistCover ul li h5{
+	font-size: 1.3em; line-height: 2.4em;
+}
+div.viewInfo{ padding: 15px; margin: 0;
+	
+}
+div.viewInfo img{
+	display: block;  width: 100px; float: left; padding-right: 15px;
+}
+div.viewInfo h5{
+	font-size: 1.2em;
+	line-height: 2.5em; 
+}
+div.viewInfo p{
+	font-size: 1.0em;
+	line-height: 1.5em; color: #555;
+}
+div.link{
+	background-color: #fff; padding: 0 15px 15px; 
+}
+div.link a{
+	display: inline-block; padding: 0.5em 2em; background-color: #f48719; color: #fff; font-size: 1.2em;
+	margin-right: 3em;
+}
+div.link a.add{
+	background-color: #fff;border: 1px solid #f48719; color: #f48719;
+}
+p.aboutBook{
+	background-color: #fff; padding: 15px;  margin-top: 15px; text-align: left; font-size: 1.0em; line-height: 1.8em; color: #555;}
+p.aboutBook b{
+	display: block; font-size: 1.2em;line-height: 2em; color: #333;}
+
+/* 书城-分类相关样式  */
+
+div.cateMenu{
+	background-color: #ffffff;
+	margin: 15px auto; padding: 10px 0;
+}
+div.cateMenu ul li{
+	position: relative; padding-left: 4em; text-align: left; margin-bottom: 15px;
+}
+div.cateMenu ul li b{
+	display: inline-block; font-size: 1.2em; width: 4em; text-align: center;
+	position: absolute; left: 0; line-height: 1.5em;
+}
+div.cateMenu ul li a {
+	display: inline-block; text-align: center; padding: 0 10px;line-height: 1.2em;
+}
+div.cateMenu ul li a.active {
+font-size: 1.1em; background-color: #f48719; color: #fff; padding: 6px 15px; border-radius: 8px;
+}
+
+/* 我的-相关样式  */
+div.perhear{
+	background-color: #f48719; height: 120px;
+	position: relative; padding-left: 150px; text-align: left; color: #fff;
+}
+div.perhear img{
+	display: block; position: absolute; left: 20px; border-radius: 100px; width: 100px; top: 50px; background-color: #fff;
+}
+div.perhear h3{
+	padding-top: 55px;
+}
+div.perhear p{line-height: 1.8em;}
+
+div.vipview{
+	margin: 15px 0; text-align: right;padding-right: 2em;
+}
+div.vipview strong{color: #f48719; }
+div.vipview a{font-size: 1.0em; background-color: #f48719; color: #fff; padding: 8px 15px;border-radius: 8px; margin-left: 10px;
+}
+ul.myaccList{
+	background-color: #fff;  margin: 15px 0; padding: 1em;
+}
+ul.myaccList li{border-bottom: 1px solid #ccc; line-height: 4em; text-align: left; text-indent: 1em;
+	background: transparent url(bg/arrow_right.png) no-repeat right center;   
+}
+ul.myaccList li.tit{
+	border: none; background: none; line-height: 2em; font-size: 1.1em; font-weight: bold;
+}
+
+div.viphead{
+	background-color: #fff;  margin: 15px 0; padding: 15px;
+	position: relative; padding-left: 130px; text-align: left; height: 100px;
+}
+
+div.viphead img{display: block; position: absolute; left: 15px; border-radius: 100px; width: 100px;}
+div.viphead h3{margin: 15px 0 10px;}
+div.viphead p{color: #555;}
+div.viphead strong{color: #f48719; }
+div.viphead a{
+	display: block; position: absolute; right: 20px; top: 15px; line-height: 80px; padding-left: 120px; color: blue;
+}
+div.pay{ background-color: #fff; 
+
+}
+div.pay a{ background-color: #f48719; border-radius: 10px; width: 90%;margin: 10px auto; height: 70px; line-height: 70px; display: block;
+	color: #fff; font-size: 1.5em;}
+
+div.linkDate{}
+
+div.linkDate a{
+	display: inline-block; background-color: #fff; border: 1px solid #ccc; border-radius: 5px; width: 30%; margin: 0 1%;height: 90px; color: #666;
+}
+div.linkDate a b{
+	display: block;line-height: 34px; font-size: 1.6em; margin-top: 20px;
+}
+
+div.note{background-color: #fff; padding: 15px; margin: 15px 0; text-align: left; color: #555; line-height: 1.8em; font-size: 1.0em;}
+div.note h4{padding-bottom: 15px; font-size: 1.2em;}
+div.note span{color: #f48719; font-size: 1.1em;}
+
+ul.payrecord{
+	background-color: #fff; padding: 0 15px; margin: 15px 0; text-align: left; 
+
+}
+ul.payrecord li{
+	border-bottom: 1px solid #ccc; position: relative; color: #666; padding: 15px 0;
+}
+ul.payrecord li strong{display: block; color: #555;font-size: 1.2em;}
+ul.payrecord li span{
+	display: inline-block; position: absolute; right: 20px; top: 25px; font-size: 1.3em;
+}
+
+div.feedback{background-color: #fff; padding: 15px; margin: 15px 0; }
+div.feedback textarea{ width: 100%;border: 1px solid #ccc;  color: #555;}
+div.feedback a{
+	background-color: #f48719; border-radius: 10px; width: 90%;margin: 10px auto; height: 70px; line-height: 70px;  display:block; color: #fff;font-size: 1.5em;
+}
+
+/* 阅读-相关样式  */
+
+div.pageview{ background-color: #fff; color: #333; padding: 15px;}
+div.pageview h2{ border-bottom: 1px solid #ccc; text-align: left; font-size: 1.2em;padding-bottom: 15px; color: #333;}
+div.pageview p{
+	font-size: 1em; color: #555; line-height: 1.8em; text-align: left; margin: 20px 0;
+}
+ul.btn {height: 60px;}
+ul.btn li{display: inline-block;width: 33.3%;float: left;line-height: 60px;}
+ul.btn li a{display: block;}
+
+
