@@ -33,38 +33,38 @@ div.amenu,div.pay{
 	position: absolute;
 	position:fixed;
 	bottom: 0;
-	height: 90px; 
+	height: 60px; 
 }
 div.amenu a{
 	display: inline-block;
-	width: 25%;  height: 90px;
+	width: 25%;  height: 60px;
 	float: left;
-	text-decoration: none; line-height: 140px;
+	text-decoration: none; line-height: 92px;
 	color: #666;
-	background: transparent url(bg/menubg_mybook.png) no-repeat center 10px; 
+	background: transparent url(bg/menubg_mybook.png) no-repeat center 5px; 
 
 	
 }
 div.amenu a.mybook{
-	background: transparent url(bg/menubg_mybook_now.png) no-repeat center 10px; color: #f48719;
+	background: transparent url(bg/menubg_mybook_now.png) no-repeat center 5px; color: #f48719;
 }
 div.amenu a.bookstore{
-	background: transparent url(bg/menubg_store.png) no-repeat center 10px;
+	background: transparent url(bg/menubg_store.png) no-repeat center 5px;
 }
 div.amenu a.bookstorenow{
-	background: transparent url(bg/menubg_store_now.png) no-repeat center 10px; color: #f48719;
+	background: transparent url(bg/menubg_store_now.png) no-repeat center 5px; color: #f48719;
 }
 div.amenu a.cotaray {
-	background: transparent url(bg/menubg_catoray.png) no-repeat center 10px; 
+	background: transparent url(bg/menubg_catoray.png) no-repeat center 5px; 
 }
 div.amenu a.cotaraynow{
-	background: transparent url(bg/menubg_catoray_now.png) no-repeat center 10px; color: #f48719;
+	background: transparent url(bg/menubg_catoray_now.png) no-repeat center 5px; color: #f48719;
 }
 div.amenu a.myaccount {
-	background: transparent url(bg/menubg_myaccout.png) no-repeat center 10px; 
+	background: transparent url(bg/menubg_myaccout.png) no-repeat center 5px; 
 }
 div.amenu a.myaccountnow{
-	background: transparent url(bg/menubg_myaccout_now.png) no-repeat center 10px; color: #f48719;
+	background: transparent url(bg/menubg_myaccout_now.png) no-repeat center 5px; color: #f48719;
 }
 
 
@@ -129,10 +129,10 @@ div.blist ul li p a{
 /* 书城推荐相关样式 */
 
 div.bannerBox {
-	height: 280px;
+	
 }
 div.bannerBox img{
-	height: 280px;
+	width: 100%;
 	display: block; margin: 0 auto;
 }
 div.blistCover ul {}
@@ -149,7 +149,7 @@ div.blistCover ul li a{
 }
 div.blistCover ul li img{
 	display: block;
-	width: 140px; margin: 0 auto;
+	width: 90%; margin: 0 auto;
 }
 div.blistCover ul li h5{
 	font-size: 1.3em; line-height: 2.4em;

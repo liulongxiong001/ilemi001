@@ -3,6 +3,7 @@ package com.lemi.controller;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -11,9 +12,10 @@ public class MineController {
 
 	
 	@RequestMapping(value="/myacc")
-	public String mine(HttpServletRequest request) {
+	public String mine(HttpServletRequest request,ModelMap map) {
 		
 		request.setAttribute("mine", "wo lai le !!");
+		map.addAttribute("m", "测试modelmap");
 		return "mine/myacc";
 	}
 	

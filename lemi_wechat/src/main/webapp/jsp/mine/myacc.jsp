@@ -16,7 +16,7 @@
 		<div id="acontent">
 			 <div class="perhear">
 			 	<img src="${baseUrl }/images/head.png" alt="头像" />
-			 	<h3>玉面小飞龙</h3>
+			 	<h3>玉面小飞龙-${m}</h3>
 			 	<p>用户ID：737734</p>
 			 </div>
 			 <div class="vipview">
